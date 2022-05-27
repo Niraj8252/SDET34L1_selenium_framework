@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>E:\Workspace_ty01\SDET34L1\testng_batch_execution.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>2 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods, 1 failed,  5 skipped,  12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.ProductsTest.CreateProductsTest" class="method navigator-link" hash-for-method="createProductTest">createProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.ProductsTest.CreateProductsTest" class="method navigator-link" hash-for-method="createProductTest">createProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.ProductsTest.CreateProductsTest" class="method navigator-link" hash-for-method="createProductTest">createProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.ProductsTest.CreateProductsTest" class="method navigator-link" hash-for-method="createProductTest">createProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.ProductsTest.CreateProductsTest" class="method navigator-link" hash-for-method="createProductTest">createProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.ProductsTest.CreateProductsTest" class="method navigator-link" hash-for-method="createProductTest">createProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test" class="method navigator-link" hash-for-method="createAndDeleteFromListTest">createAndDeleteFromListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.leadsTest.CreateAndDeleteTc_56Test" class="method navigator-link" hash-for-method="createAndDeleteTest">createAndDeleteTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.campaignsTest.CreateCampaignTest" class="method navigator-link" hash-for-method="createCampaignTest">createCampaignTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.campaignsTest.CreateCampaignsWithProductsTest" class="method navigator-link" hash-for-method="createCampaignWithProductTest">createCampaignWithProductTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.contactsTest.CreateContactTest" class="method navigator-link" hash-for-method="createContactTest">createContactTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.contactsTest.CreateContactWithOrganizationTest" class="method navigator-link" hash-for-method="createContactWithOrganizationTest">createContactWithOrganizationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.documentsTest.CreateDocumentTest" class="method navigator-link" hash-for-method="createDocumentTest">createDocumentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test" class="method navigator-link" hash-for-method="createLeadAndDeleteFromTxtFieldsTest">createLeadAndDeleteFromTxtFieldsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test" class="method navigator-link" hash-for-method="createMultipleLeadsAndDeleteTest">createMultipleLeadsAndDeleteTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test" class="method navigator-link" hash-for-method="createMultipleLeadsAndDeleteTextFielsTest">createMultipleLeadsAndDeleteTextFielsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest" class="method navigator-link" hash-for-method="createOrganizationTest">createOrganizationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.vtiger.organizationTest.CreateOrganisationTest" class="method navigator-link" hash-for-method="createOrganizationTest">createOrganizationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.vtiger.ProductsTest.CreateProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createProductTest">
+                  </a> <!-- createProductTest -->
+                  <span class="method-name">createProductTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.vtiger.ProductsTest.CreateProductsTest.createProductTest(CreateProductsTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.vtiger.ProductsTest.CreateProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createProductTest">
+                  </a> <!-- createProductTest -->
+                  <span class="method-name">createProductTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.vtiger.ProductsTest.CreateProductsTest.createProductTest(CreateProductsTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createProductTest">
+                  </a> <!-- createProductTest -->
+                  <span class="method-name">createProductTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.vtiger.ProductsTest.CreateProductsTest.createProductTest(CreateProductsTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createProductTest">
+                  </a> <!-- createProductTest -->
+                  <span class="method-name">createProductTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.vtiger.ProductsTest.CreateProductsTest.createProductTest(CreateProductsTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createProductTest">
+                  </a> <!-- createProductTest -->
+                  <span class="method-name">createProductTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.vtiger.ProductsTest.CreateProductsTest.createProductTest(CreateProductsTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createProductTest">
+                  </a> <!-- createProductTest -->
+                  <span class="method-name">createProductTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at com.vtiger.ProductsTest.CreateProductsTest.createProductTest(CreateProductsTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-skipped -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vtiger.contactsTest.CreateContactTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createContactTest">
+                  </a> <!-- createContactTest -->
+                  <span class="method-name">createContactTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vtiger.organizationTest.CreateOrganisationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createOrganizationTest">
+                  </a> <!-- createOrganizationTest -->
+                  <span class="method-name">createOrganizationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createMultipleLeadsAndDeleteTest">
+                  </a> <!-- createMultipleLeadsAndDeleteTest -->
+                  <span class="method-name">createMultipleLeadsAndDeleteTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createMultipleLeadsAndDeleteTextFielsTest">
+                  </a> <!-- createMultipleLeadsAndDeleteTextFielsTest -->
+                  <span class="method-name">createMultipleLeadsAndDeleteTextFielsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vtiger.campaignsTest.CreateCampaignTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCampaignTest">
+                  </a> <!-- createCampaignTest -->
+                  <span class="method-name">createCampaignTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vtiger.leadsTest.CreateAndDeleteTc_56Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAndDeleteTest">
+                  </a> <!-- createAndDeleteTest -->
+                  <span class="method-name">createAndDeleteTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vtiger.campaignsTest.CreateCampaignsWithProductsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createCampaignWithProductTest">
+                  </a> <!-- createCampaignWithProductTest -->
+                  <span class="method-name">createCampaignWithProductTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vtiger.contactsTest.CreateContactWithOrganizationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createContactWithOrganizationTest">
+                  </a> <!-- createContactWithOrganizationTest -->
+                  <span class="method-name">createContactWithOrganizationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createLeadAndDeleteFromTxtFieldsTest">
+                  </a> <!-- createLeadAndDeleteFromTxtFieldsTest -->
+                  <span class="method-name">createLeadAndDeleteFromTxtFieldsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createOrganizationTest">
+                  </a> <!-- createOrganizationTest -->
+                  <span class="method-name">createOrganizationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vtiger.documentsTest.CreateDocumentTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createDocumentTest">
+                  </a> <!-- createDocumentTest -->
+                  <span class="method-name">createDocumentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAndDeleteFromListTest">
+                  </a> <!-- createAndDeleteFromListTest -->
+                  <span class="method-name">createAndDeleteFromListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Workspace_ty01\SDET34L1\testng_batch_execution.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.sdet34l1.genericLibrary.ListenerImplementation&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.vtiger.campaignsTest.CreateCampaignsWithProductsTest&quot;/&gt;
+      &lt;class name=&quot;com.vtiger.contactsTest.CreateContactWithOrganizationTest&quot;/&gt;
+      &lt;class name=&quot;com.vtiger.leadsTest.CreateAndDeleteTc_56Test&quot;/&gt;
+      &lt;class name=&quot;com.vtiger.documentsTest.CreateDocumentTest&quot;/&gt;
+      &lt;class name=&quot;com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test&quot;/&gt;
+      &lt;class name=&quot;com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test&quot;/&gt;
+      &lt;class name=&quot;com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test&quot;/&gt;
+      &lt;class name=&quot;com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test&quot;/&gt;
+      &lt;class name=&quot;com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest&quot;/&gt;
+      &lt;class name=&quot;com.vtiger.organizationTest.CreateOrganisationTest&quot;/&gt;
+      &lt;class name=&quot;com.vtiger.contactsTest.CreateContactTest&quot;/&gt;
+      &lt;class name=&quot;com.vtiger.campaignsTest.CreateCampaignTest&quot;/&gt;
+      &lt;class name=&quot;com.vtiger.ProductsTest.CreateProductsTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regration</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">createCampaignWithProductTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createContactWithOrganizationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">createAndDeleteFromListTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createAndDeleteTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createCampaignTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createContactTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createDocumentTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createLeadAndDeleteFromTxtFieldsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createMultipleLeadsAndDeleteTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createMultipleLeadsAndDeleteTextFielsTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">createOrganizationTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createMultipleLeadsAndDeleteTextFielsTest')
+data.setCell(0, 2, 'com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test')
+data.setCell(0, 3, 55671);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'createContactWithOrganizationTest')
+data.setCell(1, 2, 'com.vtiger.contactsTest.CreateContactWithOrganizationTest')
+data.setCell(1, 3, 52728);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createCampaignWithProductTest')
+data.setCell(2, 2, 'com.vtiger.campaignsTest.CreateCampaignsWithProductsTest')
+data.setCell(2, 3, 48521);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createMultipleLeadsAndDeleteTest')
+data.setCell(3, 2, 'com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test')
+data.setCell(3, 3, 47886);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createCampaignTest')
+data.setCell(4, 2, 'com.vtiger.campaignsTest.CreateCampaignTest')
+data.setCell(4, 3, 43818);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'createLeadAndDeleteFromTxtFieldsTest')
+data.setCell(5, 2, 'com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test')
+data.setCell(5, 3, 32172);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'createAndDeleteFromListTest')
+data.setCell(6, 2, 'com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test')
+data.setCell(6, 3, 31692);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'createAndDeleteTest')
+data.setCell(7, 2, 'com.vtiger.leadsTest.CreateAndDeleteTc_56Test')
+data.setCell(7, 3, 31511);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'createContactTest')
+data.setCell(8, 2, 'com.vtiger.contactsTest.CreateContactTest')
+data.setCell(8, 3, 28900);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'createDocumentTest')
+data.setCell(9, 2, 'com.vtiger.documentsTest.CreateDocumentTest')
+data.setCell(9, 3, 28273);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'createOrganizationTest')
+data.setCell(10, 2, 'com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest')
+data.setCell(10, 3, 26786);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'createProductTest')
+data.setCell(11, 2, 'com.vtiger.ProductsTest.CreateProductsTest')
+data.setCell(11, 3, 19845);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'createOrganizationTest')
+data.setCell(12, 2, 'com.vtiger.organizationTest.CreateOrganisationTest')
+data.setCell(12, 3, 17738);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'createProductTest')
+data.setCell(13, 2, 'com.vtiger.ProductsTest.CreateProductsTest')
+data.setCell(13, 3, 17426);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'createProductTest')
+data.setCell(14, 2, 'com.vtiger.ProductsTest.CreateProductsTest')
+data.setCell(14, 3, 17013);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'createProductTest')
+data.setCell(15, 2, 'com.vtiger.ProductsTest.CreateProductsTest')
+data.setCell(15, 3, 16376);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'createProductTest')
+data.setCell(16, 2, 'com.vtiger.ProductsTest.CreateProductsTest')
+data.setCell(16, 3, 16170);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'createProductTest')
+data.setCell(17, 2, 'com.vtiger.ProductsTest.CreateProductsTest')
+data.setCell(17, 3, 15830);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">24 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.vtiger.contactsTest.CreateContactTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.vtiger.organizationTest.CreateOrganisationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.vtiger.campaignsTest.CreateCampaignTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.vtiger.leadsTest.CreateAndDeleteTc_56Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.vtiger.contactsTest.CreateContactWithOrganizationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.vtiger.documentsTest.CreateDocumentTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.vtiger.ProductsTest.CreateProductsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">beforeSuiteTest</span>
+                <br/>
+                <span class="ignored-method-name">afterSuiteTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.campaignsTest.CreateCampaignsWithProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuiteTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassTest(chrome)</span>
+                <span class="method-start">6617 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">16940 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCampaignWithProductTest</span>
+                <span class="method-start">27901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">76509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTest</span>
+                <span class="method-start">79532 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.contactsTest.CreateContactWithOrganizationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassTest(chrome)</span>
+                <span class="method-start">80225 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">84424 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createContactWithOrganizationTest</span>
+                <span class="method-start">91547 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">144321 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTest</span>
+                <span class="method-start">147397 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.leadsTest.CreateAndDeleteTc_56Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassTest(chrome)</span>
+                <span class="method-start">148039 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">152700 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAndDeleteTest</span>
+                <span class="method-start">159778 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">191311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTest</span>
+                <span class="method-start">194194 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.documentsTest.CreateDocumentTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassTest(chrome)</span>
+                <span class="method-start">195144 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">199856 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createDocumentTest</span>
+                <span class="method-start">207226 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">235550 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTest</span>
+                <span class="method-start">238580 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassTest(chrome)</span>
+                <span class="method-start">239302 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">243802 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createLeadAndDeleteFromTxtFieldsTest</span>
+                <span class="method-start">250915 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">283103 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTest</span>
+                <span class="method-start">292658 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassTest(chrome)</span>
+                <span class="method-start">293365 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">298344 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAndDeleteFromListTest</span>
+                <span class="method-start">305370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">337067 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTest</span>
+                <span class="method-start">339917 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassTest(chrome)</span>
+                <span class="method-start">340956 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">345822 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createMultipleLeadsAndDeleteTextFielsTest</span>
+                <span class="method-start">352759 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">408449 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTest</span>
+                <span class="method-start">418072 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassTest(chrome)</span>
+                <span class="method-start">418819 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">423672 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createMultipleLeadsAndDeleteTest</span>
+                <span class="method-start">430543 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">478500 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTest</span>
+                <span class="method-start">481897 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassTest(chrome)</span>
+                <span class="method-start">482739 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">487339 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createOrganizationTest</span>
+                <span class="method-start">494326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">521118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTest</span>
+                <span class="method-start">524196 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.organizationTest.CreateOrganisationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassTest(chrome)</span>
+                <span class="method-start">524842 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">531415 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createOrganizationTest</span>
+                <span class="method-start">544791 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">562532 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTest</span>
+                <span class="method-start">570011 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.contactsTest.CreateContactTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassTest(chrome)</span>
+                <span class="method-start">570399 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">575805 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createContactTest</span>
+                <span class="method-start">584782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">613687 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTest</span>
+                <span class="method-start">618109 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.campaignsTest.CreateCampaignTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassTest(chrome)</span>
+                <span class="method-start">618894 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">623587 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createCampaignTest</span>
+                <span class="method-start">632821 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">676714 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTest</span>
+                <span class="method-start">687540 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.ProductsTest.CreateProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClassTest(chrome)</span>
+                <span class="method-start">687550 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">693838 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createProductTest</span>
+                <span class="method-start">702211 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">722096 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">725283 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createProductTest</span>
+                <span class="method-start">731095 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">747468 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">750842 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createProductTest</span>
+                <span class="method-start">757090 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">773779 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">776602 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createProductTest</span>
+                <span class="method-start">782280 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">798118 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">801174 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createProductTest</span>
+                <span class="method-start">806888 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">823948 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest</span>
+                <span class="method-start">826991 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createProductTest</span>
+                <span class="method-start">832559 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest</span>
+                <span class="method-start">850448 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClassTest</span>
+                <span class="method-start">853430 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.vtiger.campaignsTest.CreateCampaignsWithProductsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuiteTest</span>
+                <span class="method-start">856507 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

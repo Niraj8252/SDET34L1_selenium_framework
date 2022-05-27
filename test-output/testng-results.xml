@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results retried="5" ignored="24" total="42" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-24T15:43:30 IST" name="Suite" finished-at="2022-05-24T15:57:39 IST" duration-ms="849185">
+    <groups>
+      <group name="regration">
+        <method signature="CreateCampaignsWithProductsTest.createCampaignWithProductTest()[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignsWithProductsTest@6fd5717c]" name="createCampaignWithProductTest" class="com.vtiger.campaignsTest.CreateCampaignsWithProductsTest"/>
+        <method signature="CreateContactWithOrganizationTest.createContactWithOrganizationTest()[pri:0, instance:com.vtiger.contactsTest.CreateContactWithOrganizationTest@5411dd90]" name="createContactWithOrganizationTest" class="com.vtiger.contactsTest.CreateContactWithOrganizationTest"/>
+      </group> <!-- regration -->
+      <group name="sanity">
+        <method signature="CreateAndDeleteFromListTc_57Test.createAndDeleteFromListTest()[pri:0, instance:com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test@73ad4ecc]" name="createAndDeleteFromListTest" class="com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test"/>
+        <method signature="CreateAndDeleteTc_56Test.createAndDeleteTest()[pri:0, instance:com.vtiger.leadsTest.CreateAndDeleteTc_56Test@50194e8d]" name="createAndDeleteTest" class="com.vtiger.leadsTest.CreateAndDeleteTc_56Test"/>
+        <method signature="CreateCampaignTest.createCampaignTest()[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignTest@45d6ef73]" name="createCampaignTest" class="com.vtiger.campaignsTest.CreateCampaignTest"/>
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:com.vtiger.contactsTest.CreateContactTest@1ad8df52]" name="createContactTest" class="com.vtiger.contactsTest.CreateContactTest"/>
+        <method signature="CreateDocumentTest.createDocumentTest()[pri:0, instance:com.vtiger.documentsTest.CreateDocumentTest@3cee53dc]" name="createDocumentTest" class="com.vtiger.documentsTest.CreateDocumentTest"/>
+        <method signature="CreateLeadAndDeleteFromTextFieldTc_58Test.createLeadAndDeleteFromTxtFieldsTest()[pri:0, instance:com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test@290aeb20]" name="createLeadAndDeleteFromTxtFieldsTest" class="com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test"/>
+        <method signature="CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test.createMultipleLeadsAndDeleteTextFielsTest()[pri:0, instance:com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test@69da0b12]" name="createMultipleLeadsAndDeleteTextFielsTest" class="com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test"/>
+        <method signature="CreateMultipleLeadsAndDeleteTc_59Test.createMultipleLeadsAndDeleteTest()[pri:0, instance:com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test@76c52298]" name="createMultipleLeadsAndDeleteTest" class="com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test"/>
+        <method signature="CreateOrganisationTest.createOrganizationTest()[pri:0, instance:com.vtiger.organizationTest.CreateOrganisationTest@a52ca2e]" name="createOrganizationTest" class="com.vtiger.organizationTest.CreateOrganisationTest"/>
+        <method signature="CreateOrganizationWithDDIndustryTest.createOrganizationTest()[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest@bb9ab64]" name="createOrganizationTest" class="com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-05-24T15:43:30 IST" name="Test" finished-at="2022-05-24T15:57:39 IST" duration-ms="849185">
+      <class name="com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test">
+        <test-method is-config="true" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test@290aeb20]" started-at="2022-05-24T15:47:25 IST" name="beforeClassTest" finished-at="2022-05-24T15:47:29 IST" duration-ms="4499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test@290aeb20]" started-at="2022-05-24T15:47:29 IST" name="beforeMethodTest" finished-at="2022-05-24T15:47:36 IST" duration-ms="7111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createLeadAndDeleteFromTxtFieldsTest()[pri:0, instance:com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test@290aeb20]" started-at="2022-05-24T15:47:36 IST" name="createLeadAndDeleteFromTxtFieldsTest" finished-at="2022-05-24T15:48:08 IST" duration-ms="32172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLeadAndDeleteFromTxtFieldsTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test@290aeb20]" started-at="2022-05-24T15:48:08 IST" name="afterMethodTest" finished-at="2022-05-24T15:48:18 IST" duration-ms="9508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test@290aeb20]" started-at="2022-05-24T15:48:18 IST" name="afterClassTest" finished-at="2022-05-24T15:48:19 IST" duration-ms="706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.vtiger.leadsTest.CreateLeadAndDeleteFromTextFieldTc_58Test -->
+      <class name="com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test">
+        <test-method is-config="true" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test@69da0b12]" started-at="2022-05-24T15:49:06 IST" name="beforeClassTest" finished-at="2022-05-24T15:49:11 IST" duration-ms="4865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test@69da0b12]" started-at="2022-05-24T15:49:11 IST" name="beforeMethodTest" finished-at="2022-05-24T15:49:18 IST" duration-ms="6888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createMultipleLeadsAndDeleteTextFielsTest()[pri:0, instance:com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test@69da0b12]" started-at="2022-05-24T15:49:18 IST" name="createMultipleLeadsAndDeleteTextFielsTest" finished-at="2022-05-24T15:50:14 IST" duration-ms="55671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleLeadsAndDeleteTextFielsTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test@69da0b12]" started-at="2022-05-24T15:50:14 IST" name="afterMethodTest" finished-at="2022-05-24T15:50:23 IST" duration-ms="9621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test@69da0b12]" started-at="2022-05-24T15:50:23 IST" name="afterClassTest" finished-at="2022-05-24T15:50:24 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteFromTextFieldTc_60Test -->
+      <class name="com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test">
+        <test-method is-config="true" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test@73ad4ecc]" started-at="2022-05-24T15:48:19 IST" name="beforeClassTest" finished-at="2022-05-24T15:48:24 IST" duration-ms="4968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test@73ad4ecc]" started-at="2022-05-24T15:48:24 IST" name="beforeMethodTest" finished-at="2022-05-24T15:48:31 IST" duration-ms="7024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createAndDeleteFromListTest()[pri:0, instance:com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test@73ad4ecc]" started-at="2022-05-24T15:48:31 IST" name="createAndDeleteFromListTest" finished-at="2022-05-24T15:49:02 IST" duration-ms="31692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndDeleteFromListTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test@73ad4ecc]" started-at="2022-05-24T15:49:02 IST" name="afterMethodTest" finished-at="2022-05-24T15:49:05 IST" duration-ms="2848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test@73ad4ecc]" started-at="2022-05-24T15:49:05 IST" name="afterClassTest" finished-at="2022-05-24T15:49:06 IST" duration-ms="1038" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.vtiger.leadsTest.CreateAndDeleteFromListTc_57Test -->
+      <class name="com.vtiger.contactsTest.CreateContactWithOrganizationTest">
+        <test-method is-config="true" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.vtiger.contactsTest.CreateContactWithOrganizationTest@5411dd90]" started-at="2022-05-24T15:44:46 IST" name="beforeClassTest" finished-at="2022-05-24T15:44:50 IST" duration-ms="4198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.contactsTest.CreateContactWithOrganizationTest@5411dd90]" started-at="2022-05-24T15:44:50 IST" name="beforeMethodTest" finished-at="2022-05-24T15:44:57 IST" duration-ms="7121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createContactWithOrganizationTest()[pri:0, instance:com.vtiger.contactsTest.CreateContactWithOrganizationTest@5411dd90]" started-at="2022-05-24T15:44:57 IST" name="createContactWithOrganizationTest" finished-at="2022-05-24T15:45:50 IST" duration-ms="52728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrganizationTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.contactsTest.CreateContactWithOrganizationTest@5411dd90]" started-at="2022-05-24T15:45:50 IST" name="afterMethodTest" finished-at="2022-05-24T15:45:53 IST" duration-ms="3073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.contactsTest.CreateContactWithOrganizationTest@5411dd90]" started-at="2022-05-24T15:45:53 IST" name="afterClassTest" finished-at="2022-05-24T15:45:53 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.vtiger.contactsTest.CreateContactWithOrganizationTest -->
+      <class name="com.vtiger.organizationTest.CreateOrganisationTest">
+        <test-method is-config="true" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.vtiger.organizationTest.CreateOrganisationTest@a52ca2e]" started-at="2022-05-24T15:52:10 IST" name="beforeClassTest" finished-at="2022-05-24T15:52:17 IST" duration-ms="6571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.organizationTest.CreateOrganisationTest@a52ca2e]" started-at="2022-05-24T15:52:17 IST" name="beforeMethodTest" finished-at="2022-05-24T15:52:30 IST" duration-ms="13373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createOrganizationTest()[pri:0, instance:com.vtiger.organizationTest.CreateOrganisationTest@a52ca2e]" started-at="2022-05-24T15:52:30 IST" name="createOrganizationTest" finished-at="2022-05-24T15:52:48 IST" duration-ms="17738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.organizationTest.CreateOrganisationTest@a52ca2e]" started-at="2022-05-24T15:52:48 IST" name="afterMethodTest" finished-at="2022-05-24T15:52:55 IST" duration-ms="7476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.organizationTest.CreateOrganisationTest@a52ca2e]" started-at="2022-05-24T15:52:55 IST" name="afterClassTest" finished-at="2022-05-24T15:52:56 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.vtiger.organizationTest.CreateOrganisationTest -->
+      <class name="com.vtiger.contactsTest.CreateContactTest">
+        <test-method is-config="true" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.vtiger.contactsTest.CreateContactTest@1ad8df52]" started-at="2022-05-24T15:52:56 IST" name="beforeClassTest" finished-at="2022-05-24T15:53:01 IST" duration-ms="5404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.contactsTest.CreateContactTest@1ad8df52]" started-at="2022-05-24T15:53:01 IST" name="beforeMethodTest" finished-at="2022-05-24T15:53:10 IST" duration-ms="8928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createContactTest()[pri:0, instance:com.vtiger.contactsTest.CreateContactTest@1ad8df52]" started-at="2022-05-24T15:53:10 IST" name="createContactTest" finished-at="2022-05-24T15:53:39 IST" duration-ms="28900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.contactsTest.CreateContactTest@1ad8df52]" started-at="2022-05-24T15:53:39 IST" name="afterMethodTest" finished-at="2022-05-24T15:53:43 IST" duration-ms="4417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.contactsTest.CreateContactTest@1ad8df52]" started-at="2022-05-24T15:53:43 IST" name="afterClassTest" finished-at="2022-05-24T15:53:44 IST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.vtiger.contactsTest.CreateContactTest -->
+      <class name="com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test">
+        <test-method is-config="true" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test@76c52298]" started-at="2022-05-24T15:50:24 IST" name="beforeClassTest" finished-at="2022-05-24T15:50:29 IST" duration-ms="4852" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test@76c52298]" started-at="2022-05-24T15:50:29 IST" name="beforeMethodTest" finished-at="2022-05-24T15:50:36 IST" duration-ms="6869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createMultipleLeadsAndDeleteTest()[pri:0, instance:com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test@76c52298]" started-at="2022-05-24T15:50:36 IST" name="createMultipleLeadsAndDeleteTest" finished-at="2022-05-24T15:51:24 IST" duration-ms="47886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createMultipleLeadsAndDeleteTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test@76c52298]" started-at="2022-05-24T15:51:24 IST" name="afterMethodTest" finished-at="2022-05-24T15:51:27 IST" duration-ms="2922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test@76c52298]" started-at="2022-05-24T15:51:27 IST" name="afterClassTest" finished-at="2022-05-24T15:51:28 IST" duration-ms="842" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.vtiger.leadsTest.CreateMultipleLeadsAndDeleteTc_59Test -->
+      <class name="com.vtiger.ProductsTest.CreateProductsTest">
+        <test-method is-config="true" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:54:53 IST" name="beforeClassTest" finished-at="2022-05-24T15:54:59 IST" duration-ms="6283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:54:59 IST" name="beforeMethodTest" finished-at="2022-05-24T15:55:08 IST" duration-ms="8369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method retried="true" signature="createProductTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:55:08 IST" name="createProductTest" finished-at="2022-05-24T15:55:27 IST" duration-ms="19845" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.vtiger.ProductsTest.CreateProductsTest.createProductTest(CreateProductsTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:55:27 IST" name="afterMethodTest" finished-at="2022-05-24T15:55:31 IST" duration-ms="3185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:55:31 IST" name="beforeMethodTest" finished-at="2022-05-24T15:55:36 IST" duration-ms="5809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method retried="true" signature="createProductTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:55:36 IST" name="createProductTest" finished-at="2022-05-24T15:55:53 IST" duration-ms="16170" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.vtiger.ProductsTest.CreateProductsTest.createProductTest(CreateProductsTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:55:53 IST" name="afterMethodTest" finished-at="2022-05-24T15:55:56 IST" duration-ms="3326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:55:56 IST" name="beforeMethodTest" finished-at="2022-05-24T15:56:02 IST" duration-ms="6246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method retried="true" signature="createProductTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:56:02 IST" name="createProductTest" finished-at="2022-05-24T15:56:19 IST" duration-ms="16376" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.vtiger.ProductsTest.CreateProductsTest.createProductTest(CreateProductsTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:56:19 IST" name="afterMethodTest" finished-at="2022-05-24T15:56:22 IST" duration-ms="2821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:56:22 IST" name="beforeMethodTest" finished-at="2022-05-24T15:56:28 IST" duration-ms="5635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method retried="true" signature="createProductTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:56:28 IST" name="createProductTest" finished-at="2022-05-24T15:56:43 IST" duration-ms="15830" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.vtiger.ProductsTest.CreateProductsTest.createProductTest(CreateProductsTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:56:43 IST" name="afterMethodTest" finished-at="2022-05-24T15:56:47 IST" duration-ms="3054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:56:47 IST" name="beforeMethodTest" finished-at="2022-05-24T15:56:52 IST" duration-ms="5713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method retried="true" signature="createProductTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:56:52 IST" name="createProductTest" finished-at="2022-05-24T15:57:09 IST" duration-ms="17013" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.vtiger.ProductsTest.CreateProductsTest.createProductTest(CreateProductsTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:57:09 IST" name="afterMethodTest" finished-at="2022-05-24T15:57:12 IST" duration-ms="3041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:57:12 IST" name="beforeMethodTest" finished-at="2022-05-24T15:57:18 IST" duration-ms="5565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createProductTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:57:18 IST" name="createProductTest" finished-at="2022-05-24T15:57:35 IST" duration-ms="17426" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at com.vtiger.ProductsTest.CreateProductsTest.createProductTest(CreateProductsTest.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createProductTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:57:36 IST" name="afterMethodTest" finished-at="2022-05-24T15:57:39 IST" duration-ms="2980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.ProductsTest.CreateProductsTest@3f29e26]" started-at="2022-05-24T15:57:39 IST" name="afterClassTest" finished-at="2022-05-24T15:57:39 IST" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.vtiger.ProductsTest.CreateProductsTest -->
+      <class name="com.vtiger.campaignsTest.CreateCampaignTest">
+        <test-method is-config="true" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignTest@45d6ef73]" started-at="2022-05-24T15:53:44 IST" name="beforeClassTest" finished-at="2022-05-24T15:53:49 IST" duration-ms="4692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignTest@45d6ef73]" started-at="2022-05-24T15:53:49 IST" name="beforeMethodTest" finished-at="2022-05-24T15:53:58 IST" duration-ms="9232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createCampaignTest()[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignTest@45d6ef73]" started-at="2022-05-24T15:53:58 IST" name="createCampaignTest" finished-at="2022-05-24T15:54:42 IST" duration-ms="43818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignTest@45d6ef73]" started-at="2022-05-24T15:54:42 IST" name="afterMethodTest" finished-at="2022-05-24T15:54:53 IST" duration-ms="10705" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Sign Out"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RB30UFV', ip: '192.168.43.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Niraj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23ab624d464bd8e3b380a10cfa50c880
+*** Element info: {Using=link text, value=Sign Out}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Sign Out"}
+  (Session info: chrome=101.0.4951.67)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-RB30UFV', ip: '192.168.43.91', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.67, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\Niraj\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58322}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23ab624d464bd8e3b380a10cfa50c880
+*** Element info: {Using=link text, value=Sign Out}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy23.click(Unknown Source)
+at com.vtiger.elementRepository.HomePage.signOut(HomePage.java:64)
+at com.sdet34l1.genericLibrary.BaseClass.afterMethodTest(BaseClass.java:130)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignTest@45d6ef73]" started-at="2022-05-24T15:54:53 IST" name="afterClassTest" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1653387893371" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.vtiger.campaignsTest.CreateCampaignTest -->
+      <class name="com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest">
+        <test-method is-config="true" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest@bb9ab64]" started-at="2022-05-24T15:51:28 IST" name="beforeClassTest" finished-at="2022-05-24T15:51:33 IST" duration-ms="4596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest@bb9ab64]" started-at="2022-05-24T15:51:33 IST" name="beforeMethodTest" finished-at="2022-05-24T15:51:40 IST" duration-ms="6985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createOrganizationTest()[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest@bb9ab64]" started-at="2022-05-24T15:51:40 IST" name="createOrganizationTest" finished-at="2022-05-24T15:52:06 IST" duration-ms="26786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest@bb9ab64]" started-at="2022-05-24T15:52:06 IST" name="afterMethodTest" finished-at="2022-05-24T15:52:09 IST" duration-ms="3035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest@bb9ab64]" started-at="2022-05-24T15:52:10 IST" name="afterClassTest" finished-at="2022-05-24T15:52:10 IST" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.vtiger.organizationTest.CreateOrganizationWithDDIndustryTest -->
+      <class name="com.vtiger.leadsTest.CreateAndDeleteTc_56Test">
+        <test-method is-config="true" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.vtiger.leadsTest.CreateAndDeleteTc_56Test@50194e8d]" started-at="2022-05-24T15:45:53 IST" name="beforeClassTest" finished-at="2022-05-24T15:45:58 IST" duration-ms="4653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.leadsTest.CreateAndDeleteTc_56Test@50194e8d]" started-at="2022-05-24T15:45:58 IST" name="beforeMethodTest" finished-at="2022-05-24T15:46:05 IST" duration-ms="7034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createAndDeleteTest()[pri:0, instance:com.vtiger.leadsTest.CreateAndDeleteTc_56Test@50194e8d]" started-at="2022-05-24T15:46:05 IST" name="createAndDeleteTest" finished-at="2022-05-24T15:46:37 IST" duration-ms="31511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndDeleteTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.leadsTest.CreateAndDeleteTc_56Test@50194e8d]" started-at="2022-05-24T15:46:37 IST" name="afterMethodTest" finished-at="2022-05-24T15:46:40 IST" duration-ms="2880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.leadsTest.CreateAndDeleteTc_56Test@50194e8d]" started-at="2022-05-24T15:46:40 IST" name="afterClassTest" finished-at="2022-05-24T15:46:40 IST" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.vtiger.leadsTest.CreateAndDeleteTc_56Test -->
+      <class name="com.vtiger.documentsTest.CreateDocumentTest">
+        <test-method is-config="true" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.vtiger.documentsTest.CreateDocumentTest@3cee53dc]" started-at="2022-05-24T15:46:40 IST" name="beforeClassTest" finished-at="2022-05-24T15:46:45 IST" duration-ms="4710" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.documentsTest.CreateDocumentTest@3cee53dc]" started-at="2022-05-24T15:46:45 IST" name="beforeMethodTest" finished-at="2022-05-24T15:46:53 IST" duration-ms="7365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createDocumentTest()[pri:0, instance:com.vtiger.documentsTest.CreateDocumentTest@3cee53dc]" started-at="2022-05-24T15:46:53 IST" name="createDocumentTest" finished-at="2022-05-24T15:47:21 IST" duration-ms="28273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createDocumentTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.documentsTest.CreateDocumentTest@3cee53dc]" started-at="2022-05-24T15:47:21 IST" name="afterMethodTest" finished-at="2022-05-24T15:47:24 IST" duration-ms="3027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.documentsTest.CreateDocumentTest@3cee53dc]" started-at="2022-05-24T15:47:24 IST" name="afterClassTest" finished-at="2022-05-24T15:47:25 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+      </class> <!-- com.vtiger.documentsTest.CreateDocumentTest -->
+      <class name="com.vtiger.campaignsTest.CreateCampaignsWithProductsTest">
+        <test-method is-config="true" signature="beforeSuiteTest()[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignsWithProductsTest@6fd5717c]" started-at="2022-05-24T15:43:25 IST" name="beforeSuiteTest" finished-at="2022-05-24T15:43:30 IST" duration-ms="4863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteTest -->
+        <test-method is-config="true" signature="beforeClassTest(java.lang.String)[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignsWithProductsTest@6fd5717c]" started-at="2022-05-24T15:43:32 IST" name="beforeClassTest" finished-at="2022-05-24T15:43:42 IST" duration-ms="10267" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassTest -->
+        <test-method is-config="true" signature="beforeMethodTest()[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignsWithProductsTest@6fd5717c]" started-at="2022-05-24T15:43:42 IST" name="beforeMethodTest" finished-at="2022-05-24T15:43:52 IST" duration-ms="9409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="createCampaignWithProductTest()[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignsWithProductsTest@6fd5717c]" started-at="2022-05-24T15:43:53 IST" name="createCampaignWithProductTest" finished-at="2022-05-24T15:44:42 IST" duration-ms="48521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCampaignWithProductTest -->
+        <test-method is-config="true" signature="afterMethodTest()[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignsWithProductsTest@6fd5717c]" started-at="2022-05-24T15:44:42 IST" name="afterMethodTest" finished-at="2022-05-24T15:44:45 IST" duration-ms="2967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterClassTest()[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignsWithProductsTest@6fd5717c]" started-at="2022-05-24T15:44:45 IST" name="afterClassTest" finished-at="2022-05-24T15:44:46 IST" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassTest -->
+        <test-method is-config="true" signature="afterSuiteTest()[pri:0, instance:com.vtiger.campaignsTest.CreateCampaignsWithProductsTest@6fd5717c]" started-at="2022-05-24T15:57:42 IST" name="afterSuiteTest" finished-at="2022-05-24T15:57:43 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuiteTest -->
+      </class> <!-- com.vtiger.campaignsTest.CreateCampaignsWithProductsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
