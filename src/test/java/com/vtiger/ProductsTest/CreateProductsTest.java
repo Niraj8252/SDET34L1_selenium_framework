@@ -24,7 +24,7 @@ public class CreateProductsTest extends BaseClass {
 		homepage.clickProduct();
 		
 		productPage.productCreateIcon();
-		Assert.fail();
+		
 		
 		createProductPage.enterProductData(productName);
 
