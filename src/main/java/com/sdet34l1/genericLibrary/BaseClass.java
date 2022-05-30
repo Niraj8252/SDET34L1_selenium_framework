@@ -24,7 +24,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * This class is used to common activities of the scripts in the form of annotations
  * @author Niraj
  * This is the supermost class of all scripts
- * This is modified by niraj
  */
 public class BaseClass {
 	public WebDriverDataLibrary webDriverDataLibrary;
@@ -57,6 +56,7 @@ public class BaseClass {
 	/**
 	 * This annotation is used to fetch the data frome property file
 	 * create the instance for all utilities
+	 * amit update base class
 	 */
 	
 	//@Parameters("browser")
