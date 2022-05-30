@@ -56,6 +56,7 @@ public class BaseClass {
 	/**
 	 * This annotation is used to fetch the data frome property file
 	 * create the instance for all utilities
+	 * amit update base class
 	 */
 	
 	//@Parameters("browser")
