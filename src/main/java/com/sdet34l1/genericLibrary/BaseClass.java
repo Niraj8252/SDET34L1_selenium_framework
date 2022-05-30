@@ -24,7 +24,15 @@ import io.github.bonigarcia.wdm.WebDriverManager;
  * This class is used to common activities of the scripts in the form of annotations
  * @author Niraj
  * This is the supermost class of all scripts
+<<<<<<< HEAD
  * This update is for master
+=======
+
+ * Change done in niraj
+
+ * Just try to make conflict
+
+>>>>>>> branch 'master' of https://github.com/Niraj8252/SDET34L1_selenium_framework.git
  */
 public class BaseClass {
 	public WebDriverDataLibrary webDriverDataLibrary;
