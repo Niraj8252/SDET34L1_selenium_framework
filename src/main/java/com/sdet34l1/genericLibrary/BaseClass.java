@@ -75,7 +75,7 @@ public class BaseClass {
 //		System.out.println(password);
 		String timeout = PropertyFileDataLibrary.getDataFromPropertyFile("timeout");
 		System.out.println(timeout);
-//		String browser = PropertyFileDataLibrary.getDataFromPropertyFile("browser");
+		String browser = PropertyFileDataLibrary.getDataFromPropertyFile("browser");
 //		//System.out.println(browser);
 //		browser = System.getProperty("BROWSER");
 //		username = System.getProperty("USERNAME");
