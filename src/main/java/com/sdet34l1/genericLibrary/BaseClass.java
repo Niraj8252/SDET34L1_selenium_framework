@@ -61,7 +61,7 @@ public class BaseClass {
 	
 	//@Parameters("browser")
 	@BeforeClass(groups="baseclass")
-	public void beforeClassTest()
+	public void beforeClassTest(/*String browser*/)
 	{
 	    
 
@@ -154,7 +154,4 @@ public class BaseClass {
 		ExcelDataLibrary.writeDataInExcel(IconstantPathLibrary.EXCELFILEPATH);
 		ExcelDataLibrary.closeExcel();
 	}
-	
-	
-
 }
