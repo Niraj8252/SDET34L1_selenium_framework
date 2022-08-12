@@ -9,7 +9,7 @@ import org.openqa.selenium.WebElement;
 /**
  * This class contains java spacific methods
  * @author Niraj
- *i am conflict
+ *
  */
 
 public class JavaLibrary {
