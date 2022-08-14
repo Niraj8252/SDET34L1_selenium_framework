@@ -57,7 +57,7 @@ public class BaseClass {
 	/**
 	 * This annotation is used to fetch the data frome property file
 	 * create the instance for all utilities
-	 * amit update base class
+	 * 
 	 */
 	
 	//@Parameters("browser")
@@ -69,13 +69,13 @@ public class BaseClass {
 		javaLibrary=new JavaLibrary();
 
 		String url = PropertyFileDataLibrary.getDataFromPropertyFile("url");
-		System.out.println(url);
+//		System.out.println(url);
 		 username = PropertyFileDataLibrary.getDataFromPropertyFile("userName");
 //		System.out.println(username);
 		 password = PropertyFileDataLibrary.getDataFromPropertyFile("password");
 //		System.out.println(password);
 		String timeout = PropertyFileDataLibrary.getDataFromPropertyFile("timeout");
-		System.out.println(timeout);
+//		System.out.println(timeout);
 		String browser = PropertyFileDataLibrary.getDataFromPropertyFile("browser");
 //		//System.out.println(browser);
 //		browser = System.getProperty("BROWSER");
